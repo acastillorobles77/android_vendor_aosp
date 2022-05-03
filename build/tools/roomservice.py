@@ -42,11 +42,11 @@ except ImportError:
 
 DEBUG = False
 
-custom_local_manifest = ".repo/local_manifests/pixel.xml"
+custom_local_manifest = ".repo/local_manifests/pixelos.xml"
 custom_default_revision =  os.getenv('ROOMSERVICE_DEFAULT_BRANCH', 'twelve')
 custom_dependencies = "aosp.dependencies"
-org_manifest = ""  # leave empty if org is provided in manifest
-org_display = ""  # needed for displaying
+org_manifest = "pixelos-devices"  # leave empty if org is provided in manifest
+org_display = "PixelOS-Devices"  # needed for displaying
 
 github_auth = None
 
